@@ -1,15 +1,4 @@
-import { Grid } from "@mui/material";
-import MenuItem from "../menu-item";
+import NavMain from "./nav-main";
+import NavUp from "./nav-up";
 
-export default function Nav() {
-  return (
-    <nav>
-      <Grid container>
-        <MenuItem title="SERVICES" link="/services" />
-        <MenuItem title="DEMO" link="/demo" />
-        <MenuItem title="PRICE" link="/price" />
-        <MenuItem title="CONTACT" link="/contact" />
-      </Grid>
-    </nav>
-  );
-}
+export { NavMain, NavUp };

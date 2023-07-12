@@ -1,8 +1,15 @@
-import Nav from "../navigation";
+import { Grid } from "@mui/material";
+import { NavMain, NavUp } from "../navigation";
+
 export default function Header() {
   return (
     <header>
-      <Nav />
+      <nav>
+        <Grid container>
+          <NavUp />
+          <NavMain />
+        </Grid>
+      </nav>
     </header>
   );
 }
