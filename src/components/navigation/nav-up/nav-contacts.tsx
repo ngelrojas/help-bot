@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 export default function NavContacts() {
   return (
     <Grid container sx={{ justifyContent: "flex-start" }}>
-      <Grid sx={{ ml: 8 }} item xs={2}>
+      <Grid item xs={3}>
         contact 0009000000
       </Grid>
       <Grid item xs={3}>

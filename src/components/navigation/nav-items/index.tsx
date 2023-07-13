@@ -1,14 +1,18 @@
 import { Grid } from "@mui/material";
-import MenuItem from "../../menu-item";
+import { MenuItem, MenuButtonItem } from "../../menu-item";
+import { MENU_ITEMS } from "./service.nav";
 
-//TODO: create a new MenuItem, but this time should be a button
 export default function NavItems() {
   return (
     <Grid container sx={{ justifyContent: "flex-end" }}>
-      <MenuItem title="SERVICES" link="/services" />
-      <MenuItem title="PRICE" link="/demo" />
-      <MenuItem title="CONTACT" link="/price" />
-      <MenuItem title="REGISTER" link="/contact" />
+      {MENU_ITEMS.map((item, index) => {
+        return <MenuItem key={index} title={item.title} link={item.link} />;
+      })}
+      <MenuButtonItem
+        key={5}
+        title="PERSONALIZED TEST"
+        link="/personalized-test"
+      />
     </Grid>
   );
 }

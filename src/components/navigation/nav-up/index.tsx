@@ -4,7 +4,7 @@ import NavContacts from "./nav-contacts";
 
 export default function NavUp() {
   return (
-    <Grid container>
+    <Grid sx={{ mt: 2, mb: 2 }} container>
       <Grid item xs={6}>
         <NavContacts />
       </Grid>
