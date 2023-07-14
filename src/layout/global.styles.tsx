@@ -12,12 +12,13 @@ export const GlobalStyles = createGlobalStyle`
   ul { list-style: none; }
   button { background: transparent; border: 0; outline: 0; }
   body {
-    background: #fefefe;
+    background: var(--gradient-5, linear-gradient(118deg, #9DF3FF 0%, #5394FC 36.62%, #5C58FD 64.89%, #8F49FE 87.87%));
+    height: 100vh;
     margin: 0px;
     padding: 0px; 
   }
   main{
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
   }
 `;

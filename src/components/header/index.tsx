@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import { NavMain, NavUp } from "../navigation";
+import { BackGroundColor } from "./styled.header";
 
 export default function Header() {
   return (
@@ -7,8 +8,10 @@ export default function Header() {
       <nav>
         <Grid container>
           <NavUp />
-          <NavMain />
         </Grid>
+        <BackGroundColor container>
+          <NavMain />
+        </BackGroundColor>
       </nav>
     </header>
   );
