@@ -1,11 +1,12 @@
-import Header from "./components/header";
+import Layout from "./layout";
+import MainRoutes from "./routes";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Header />
-    </>
+    <Layout>
+      <MainRoutes />
+    </Layout>
   );
-}
+};
 
 export default App;

@@ -1,6 +1,6 @@
 import { describe, it, expect, afterEach } from "vitest";
 import { render, screen, cleanup } from "@testing-library/react";
-import MenuItem from "../components/menu-item";
+import { MenuItem } from "../components/menu-item";
 
 const menu_title = "SERVICES";
 const link = "/services";
