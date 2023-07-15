@@ -1,10 +1,14 @@
 import Header from "../../components/header";
+import { Main } from "../../layout/layout.styles";
+import SliderMain from "../../components/slider-main";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <h1>home</h1>
+      <Main>
+        <SliderMain />
+      </Main>
     </>
   );
 }

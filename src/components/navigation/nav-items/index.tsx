@@ -10,7 +10,7 @@ export default function NavItems() {
       })}
       <MenuButtonItem
         key={5}
-        title="PERSONALIZED TEST"
+        title="DEMO PERSONALIZADO"
         link="/personalized-test"
       />
     </Grid>
