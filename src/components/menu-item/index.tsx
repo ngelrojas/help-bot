@@ -21,7 +21,7 @@ export function MenuItem({ title, link }: MenuItemProps) {
 
 export function MenuButtonItem({ title, link }: MenuItemProps) {
   return (
-    <Grid item xs={2}>
+    <Grid>
       <Button
         sx={{
           background: "var(--primary-00, #C668FF)",
