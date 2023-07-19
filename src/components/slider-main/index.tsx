@@ -4,9 +4,10 @@ import { MenuButtonItem } from "../menu-item";
 import WrapperSlider from "../layout/wrapperSlider";
 
 export default function SliderMain() {
-  const __styles = { height: "444" };
+  const __height = "444";
+
   return (
-    <WrapperSlider {...__styles}>
+    <WrapperSlider height={__height}>
       <H2>Agência de Tecnologia, Bots Inteligentes de IA</H2>
       <H1>DESCUBRA O PODER DOS HELP BOTS</H1>
       <P>

@@ -4,6 +4,7 @@ import SliderMain from "../../components/slider-main";
 import { H1 } from "./home.styles";
 import { Container, Grid } from "@mui/material";
 import VideoSlider from "../../components/video-slider";
+import CardsPublicity from "../../components/cards-publicity";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           </Grid>
         </Container>
         <VideoSlider />
+        <CardsPublicity />
       </Main>
     </>
   );

@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
 import { Container } from "@mui/material";
 
-//todo: the height property is not working
+interface ContainerSlidersProps {
+  height: string;
+}
 
-export const ContainerSliders = styled(Container)`
-  height: ${({ height }) => height}px;
+export const ContainerSliders = styled(Container)<ContainerSlidersProps>`
+  height: ${(props) => props.height}px;
   border-radius: 10px;
   border: 1.3px solid var(--light-stroke, rgba(255, 255, 255, 0.7));
   background: var(
